@@ -1,0 +1,27 @@
+{
+  "name": "ng-css-injector",
+  "description": "angular.js module for injecting directive's CSS into document at runtime",
+  "main": "ng-css-injector.js",
+  "authors": [
+    "Vasily Liaskovsky <vasily.liaskovsky@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "directive",
+    "inject",
+    "style",
+    "css"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  },
+  "homepage": "https://github.com/blr-Oliver/ng-css-injector",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

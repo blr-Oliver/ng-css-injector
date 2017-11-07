@@ -20,7 +20,7 @@
             }
           }
           $timeout(resolve, 0, false, injector);
-          return manager;
+          return injector;
 
           function hyphenated(name, separator){
             return name.replace(SNAKE_CASE_REGEXP, function(letter, pos){

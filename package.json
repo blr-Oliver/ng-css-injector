@@ -1,0 +1,33 @@
+{
+  "name": "ng-css-injector",
+  "version": "0.0.1",
+  "description": "angular.js module for injecting directive's CSS into document at runtime",
+  "main": "ng-css-injector.js",
+  "scripts": {
+    "prepublish": "npm run-script build",
+    "build": "uglifyjs ng-css-injector.js -o ng-css-injector.min.js -c -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blr-Oliver/ng-css-injector.git"
+  },
+  "keywords": [
+    "angular",
+    "directive",
+    "inject",
+    "style",
+    "css"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.1.6"
+  },
+  "author": "Vasily Liaskovsky <vasily.liaskovsky@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blr-Oliver/ng-css-injector/issues"
+  },
+  "homepage": "https://github.com/blr-Oliver/ng-css-injector#readme"
+}

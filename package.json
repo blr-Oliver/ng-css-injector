@@ -1,6 +1,6 @@
 {
   "name": "ng-css-injector",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "angular.js module for injecting directive's CSS into document at runtime",
   "main": "ng-css-injector.js",
   "scripts": {

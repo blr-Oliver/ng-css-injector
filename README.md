@@ -5,7 +5,7 @@ angular.js module for injecting directive's CSS into document at runtime
 This module helps you to associate a directive with its stylesheet same way as it works for directive's template, loading stylesheet automatically as directive is used. Also it allows to ship directive as a single *.js* file with embedded template and stylesheet. 
 
 # What can this do?
-This module supports both inline styles and separate stylesheet resources. Injecting stylesheets is lazy (default angular behavior for directive templates) and access to stylesheets is performed via standard `$templateRequest` (it indeed means it can be intercepted as well as `&templateCache` content preloaded - see example). Currently only single `css` or `cssUrl` entry is supported. 
+This module supports both inline styles and separate stylesheet resources. Injecting stylesheets is lazy (default angular behavior for directive templates) and access to stylesheets is performed via standard `$templateRequest` (it indeed means it can be intercepted as well as `&templateCache` content preloaded - see [example](#using-templatecache)). Currently only single `css` or `cssUrl` entry is supported. 
 
 # What can NOT this do?
 This module cannot manage your CSS bindings dynamically or maintain dynamic stylesheet list at runtime. This module cannot handle CSS associated with scopes other but directive (if you want some auto-CSS stuff for routing/controllers, try [angular-css](https://github.com/castillo-io/angular-css)).
